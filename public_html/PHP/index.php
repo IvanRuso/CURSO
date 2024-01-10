@@ -1,8 +1,6 @@
 <?php include 'head.html'; ?>
-<form action="resultado.php" method="post">
-    <input type="text"      id="nombre"     name="nombre"       placeholder="Nombre: "      required>
-    <input type="number"    id="edad"       name="edad"         placeholder="Edad: "        required>
-    <input type="email"     id="correo"     name="correo"       placeholder="Correo: "      required>
-    <input type="password"  id="contraseña" name="contraseña"   placeholder="Password: "    required>
+<form action="../../private_html/login/login.php" method="post">
+    <input type="text"      id="username"   name="username"   placeholder="Nombre de Usuario: "   required>
+    <input type="password"  id="password"   name="password"   placeholder="Contraseña: "          required>
     <input type="submit"    value="Enviar">
 </form> 
